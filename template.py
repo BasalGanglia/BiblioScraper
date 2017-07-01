@@ -177,23 +177,27 @@ print(response.content)
 
 import lxml
 
-def read_file():
-    file = open('example.html')
+def read_file(filename):
+    file = open(filename)
     data = file.read()
     file.close()
     return data
 
-soup = BeautifulSoup(read_file(),'html.parser')
+soup = BeautifulSoup(read_file('resources/three-sisters.html'),'html.parser')
 print(soup.prettify())
 
-soup.body['style'] = 'puppe'
+#### soup.body['style'] = 'puppe'
 
+title = soup.title
+parent = title.parent
+print(parent)
 
+link = soup.a
 
+for parent in link.parents:
+    print(parent.name)
 
-
-
-
+print(link.parent.parent.parent.parent.parent)
 
 
 
