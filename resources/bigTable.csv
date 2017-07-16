@@ -1,0 +1,72 @@
+indices,signals,metrics,references,insection
+Arousal (or activation),EDA,"SCL~$\nearrow$, SCR~$\nearrow$",\citep{OConnell2008},\ref{eda}
+,EEG,EEG-GAMMA~$\nearrow$,\citep{merker_cortical_2013},\ref{eeg}
+,SPEECH,"SP-INT~$\nearrow$, SP-F0~$\nearrow$, SP-RATE~$\nearrow$, SP-DUR~$\searrow$",\citep{elayadi2011},\ref{aud}
+,"EDA, RESP, ECG, EEG","SCL, RR, HR, EEG-BETA, EEG-THETA, EEG-ALPHA",\citep{wu2010optimal},-
+Arousal (emotional),EDA,SCR~$\nearrow$,\citep{khal02},\ref{eda}
+Activation (alertness against sleep deprivation),VOG,SACC-VEL~$\nearrow$,\citep{thomas2007},\ref{eye}
+Agitation,"ECG, EDA, (TEMP)","HR, HRV, SCL, (TEMP-L)",\citep{sakr2010support},-
+Amusement,"ECG, EDA, RESP","HR, RR, SCL~$\nearrow$",\citep{levillain2010characterizing},-
+Anxiety,"PPG, ECG, EDA, EMG, RESP, (CO2), (ACL), (ICG), (HSOUND)","BP, HR, PEP, SCL, SCR, SCL, EMG-CS, EMG-ZM, EMG-TR, RR, Vt, SIGH, ACT, PA, HRV, TWA, PTT, (TEMP-L), (Ti/Tt), (VtR), ($\mathrm{\dot{V}i}$), (RA), (pCO2), (DAUB)","\citep{liu2009dynamic,blechert2006identifying}",-
+Attention (including focus),"VOG, EOG",FIX-FREQ~$\nearrow$,\citep{tsai2007},\ref{eye}
+,"VOG, EOG","SACC-FREQ~$\searrow$, FIX-DUR~$\nearrow$",\citep{dehais2012},\ref{eye}
+,VOG,GAZE-DWELL~$\nearrow$,\citep{chang2014},\ref{eye}
+Attention (level of interest),VID,EXPR,\citep{Yeasin2006},\ref{vid}
+"Attention (inhibitory, widespread)",EEG,EEG-DELTA~$\nearrow$,\citep{harmony_functional_2013},\ref{eeg}
+"Attention (pacemaker, timing, suppressing)",EEG,EEG-ALPHA,\citep{basar_review_2012},\ref{eeg}
+Boredom,"ECG, EDA","HRV, SCL, ACT",\citep{giakoumis2011automatic},-
+Cognitive load,"ECG, PPG",HR~$\nearrow$,\citep{henelius:2009:a},\ref{ecg}
+,VOG,PS (TEPR)~$\nearrow$,\citep{Beatty1982},\ref{pup}
+,VOG,GAZE-PATHAREA~$\searrow$,\citep{wang2014},\ref{eye}
+,VOG,SACC-INTR~$\nearrow$,\citep{tokuda2011},\ref{eye}
+,EOG,SACC-PV~$\nearrow$,\citep{bodala2014},\ref{eye}
+,SPEECH,"SP-INT~$\nearrow$, SP-AMP-VAR~$\searrow$, SP-F0~$\nearrow$",\citep{lively1993},\ref{aud}
+,"ECG, EDA, RESP, (TEMP), (PRS)","HR, HRV, SCL, SCR, RR, ACT, (TEMP-L)",\citep{novak2011psychophysiological},-
+,"ECG, EOG, EEG","HR, BLINK-R, BLINK-D, EEG-ALPHA, EEG-DELTA, EEG-THETA, EEG-BETA, EEG-GAMMA",\citep{wilson2003operator},-
+,"EDA, RESP, ECG, (TEMP), (PRS)","SCL, RR, HR, HRV, ACT, (TEMP-L)",\citep{koenig2011real},-
+,"ECG, PPG","HRV~$\searrow$, PRV~$\searrow$",\citep{aasman:1987:a,yoo:2011:a},\ref{ecg}
+Fatigue,"EEG, EOG, EMG","BLINK-C~$\nearrow$, EEG-DELTA~$\nearrow$, EEG-ALPHA~$\nearrow$, EEG-BETA, EEG-GAMMA, EMG-MS",\citep{papadelis2007},\ref{eye}
+,EOG,BLINK-C~$\nearrow$,\citep{ingre2006},\ref{eye}
+,EOG,"BLINK-C~$\nearrow$, BLINK-M~$\searrow$",\citep{morris1996},\ref{eye}
+,"VOG, EOG",BLINK-R~$\nearrow$,\citep{barbato1995,khushaba2011},\ref{eye}
+,"ECG, EDA, RESP, VID","HRV, SCL, RR, ACT",\citep{rigas2011towards},-
+,"VOG, EOG",SACC-FREQ,\citep{wright2001,hyoki1998},\ref{eye}
+,VOG,SACC-VEL~$\searrow$,\citep{morris1996,hyoki1998,thomas2007},\ref{eye}
+Frustration,"VOG, VID, EDA, (PRS)","EXPR, ACT, SCL, POST",\citep{kapoor2007automatic},-
+Information processing (affective),VOG,PS (TEPR),\citep{Partala2003},\ref{pup}
+Momentary processing capacity,EEG,ERP-P3~$\nearrow$,\citep{Kok2001},\ref{erp}
+Movement readiness,EEG,ERP-CNV,\citep{Boehm2014},\ref{erp}
+Naturalness of behaviour (based on observer's data),"ECG, PPG, RESP","HR, HRV, BVP, RR, SCL, (RRV)",\citep{mohammad2010using},-
+Physical stress,SPEECH,"SP-NAQ, SP-HRF, SP-F0~$\nearrow$",\citep{godin2015},\ref{aud}
+Stress,VOG,PS (TEPR),\citep{Pedrotti2014},\ref{pup}
+,SPEECH,SP-TEO,\citep{zhou2001},\ref{aud}
+,"PPG, RESP, EDA, ECG, EMG, (TEMP)","SCL, SCR, PS, BVP, BP, HR, RR, HRV, RSA, EMG-TR, (Ti/Tt), ($\mathrm{\dot{V}i}$), (TEMP-L), (RRV)","\citep{zhai2006stress,bonarini2008stress,healey2005detecting,plarre2011continuous, setz2010discriminating}",-
+,"ECG, PPG","HRV~$\searrow$, PRV~$\searrow$",\citep{aasman:1987:a,yoo:2011:a},\ref{ecg}
+Phobic distress,"RESP, ECG, EDA, (TEMP), (CO2)","HR, SCL, SCR, RR, Vt, SIGH, (pCO2), (TEMP-L), (Ti/Tt), ($\mathrm{\dot{V}i}$), (RA), (VtR)",\citep{alpers2005psychophysiological},-
+Sleepiness,EOG,SACC-PV~$\searrow$,\citep{hirvonen2010},\ref{eye}
+,"VOG, EOG",SACC-FREQ,\citep{wright2001,hyoki1998},\ref{eye}
+,VOG,SACC-VEL~$\searrow$,\citep{morris1996,hyoki1998,thomas2007},\ref{eye}
+Valence,EMG,"EMG-CS, EMG-ZM, EMG-OO",\citep{Ravaja2004},\ref{emg}
+,"EMG, EDA, PPG","HR, SCL, BVP",\citep{leon2007user},-
+,ECG,HRV,\citep{gruber2015heart},-
+Valence (binary classification: present/absent),EEG,"EEG-DELTA, EEG-THETA, EEG-BETA, EEG-GAMMA",\citep{guntekin_review_2014},\ref{eeg}
+"Emotions (single classification on two dimensions: Valence and Arousal -- see Figure~\ref{fig.emocir})","EMG, RESP, EDA, PPG, SPEECH, EEG, ECG, (TEMP)","EMG-NE, RR, SCL, BVP, SP-SOUND, EEG-ALPHA, EEG-THETA, EEG-BETA, EEG-MI, SCR, BVP, BP, HR, HRV, (RRV), (TEMP-V), (RA), (TEMP-L), (EEG-TFT)","\citep{kim2007bimodal, chanel2011emotion,kim2008emotion,chanel2009short}",-
+"Emotions (neutral, amusement, anger, contentment, sadness)","ECG, EMG, EOG, EDA, RESP, (TEMP)","HR, EMG-ZM, BLINK-R, SCL, SCR, (TEMP-L)",\citep{setz2009combining},-
+"Emotions (amusement, disgust, sadness, surprise, fear, contentment, anger)","ECG, EDA, (TEMP)","HR, SCL, (TEMP-L)","\citep{nasoz2004emotion,lisetti2004using}",-
+"Emotions (anger, fear, happiness, sadness)","RESP, ECG","RR, RSA, HRV",\citep{rainville2006basic},-
+Emotions (esp. positive vs. negative),RESP,"Ti, Te, (Ti/Tt), (Rc/Vt), (Tt), ($\mathrm{\dot{V}}$)",\citep{Boiten1998},\ref{rsp}
+"Emotions (neutral, fear, sadness)","ECG, RESP, EDA, EMG, (PRS), (ICG), (CO2), (TEMP)","TWA, HR, HRV, PEP, BP, PA, PTT, SCL, SCR, RR, Vt, RSA, PEP, ACT, BLINK-M, EMG-CS, EMG-ZM, (HSV), (VtR), (Ti/Tt), ($\mathrm{\dot{V}i}$), (pCO2), (TEMP-L)","\citep{kreibig2007cardiovascular,kolodyazhniy2011affective}",-
+"Emotions (happiness, disgust, fear)","EMG, ECG, RESP, EDA","EMG-FR, EMG-NA, HR, RR, SCL, SCR",\citep{rigas2007user},-
+"Emotions (joy, anger, pleasure, sadness)","RESP, EDA, ECG","RR, SCL, HR, (RA)",\citep{wagner2005physiological},-
+"Emotions (neutral, anger, fear, sadness, frustration)","ECG, EDA, (TEMP)","HR, SCL, (TEMP-L)",\citep{lisetti2003developing},
+"Emotions (neutral, anger, hate, grief, platonic love, romantic love, joy, reverence)","EMG, PPG, EDA, RESP, ECG, EMG, EDA, (SMM)","EMG-MS, BP, SCL, RR, HR","\citep{picard2001toward,calvo2009effect,christie2004autonomic}",
+"Emotions (neutral, joy, angry, surprise, fear, sadness, disgust)",VID,EXPR,\citep{Shan2009},\ref{vid}
+"Emotions (neutral, sadness, amusement)","VID, ECG, EDA, (TEMP), (PRS)","EXPR, HR, BP, PEP, PA, PTT, SCL, ACT, (TEMP-L)",\citep{bailenson2008real},-
+"Emotions (sadness, anger, stress, surprise)","ECG, EDA, (TEMP)","HR, HRV, SCL, SCR, (TEMP-V)",\citep{kim2004emotion},-
+"High-level cognitive mental states (agreement, concentrating, disagreement, interested, thinking, unsure)",VID,EXPR,\citep{ElKaliouby2004},\ref{vid}
+"Task response (engagement, anxiety, boredom, frustration, anger)","ECG, EDA, EMG, (TEMP), (HSOUND)","PEP, HR, BP, SCL, SCR, EMG-CS, EMG-ZM, EMG-TR, BLINK-R, (TEMP-L), (TEMP-V), (DAUB)",\citep{rani2006empirical},-
+"Task response (engagement, confusion, boredom, hopefulness)","EEG, ECG, PPG, EDA","EEG-ALPHA, EEG-DELTA, EEG-THETA, EEG-BETA, EEG-GAMMA, HR, BP, SCL",\citep{shen2009affective},-
+"Task response (engagement, enjoyment, entertainment)","EDA, PPG, ECG, RESP, (TEMP)","SCL, HR, BVP, BP, HR, RR, (TEMP-L)","\citep{yannakakis2010towards,tognetti2010enjoyment}",-
+"Task response (neutral, high stress, low stress, disappointment, euphoria)","EMG, RESP, EDA, ECG","HR, RR, SCL, SCR, (additional EDA metrics)","\citep{katsis2006integrated,katsis2008toward}",-
+"Task response (liking, anxiety, engagement)","ECG, PPG, EDA, EMG, (TEMP), (HSOUND), (ICG)","HR, PTT, SCL, SCR, EMG-TR, EMG-ZM, EMG-CS, BLINK-D, BLINK-R, (DAUB)",\citep{liu2008online},-
+"Task response (neutrality, panic or fear, frustration or anger, boredom)","EDA, ECG, EMG, PPG, (PRS)","SCL, BP, EMG-CS, EMG-ZM, EMG-FR, HR, (SENT)",\citep{nasoz2010affectively},-

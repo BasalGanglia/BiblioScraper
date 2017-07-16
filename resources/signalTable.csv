@@ -1,0 +1,20 @@
+signal,description,insection
+ECG,Electrocardiogram,\ref{ecg}
+PPG,Photoplethysmography,"\ref{ecg}, \ref{vid}"
+EDA,"Electrodermal Activity (also known as Skin Conductance or Galvanic Skin Response)",\ref{eda}
+RESP,"Respiration (e.g., chest plethysmography)","\ref{ecg}, \ref{rsp}, \ref{vid}"
+EMG,Electromyography,\ref{emg}
+EEG,"Electroencephalography, also the source of event-related potentials (ERPs)","\ref{eeg}, \ref{erp}"
+VOG,Video-oculography (eye tracking),"\ref{pup}, \ref{eye}"
+EOG,Electro-oculography,\ref{eye}
+VID,Video-based posture/facial recognition,\ref{vid}
+SPEECH,Speech recorded via microphone(s),\ref{aud}
+(ACL),Accelerometer(s),
+(BEHAV),"Behavioural data collected from device usage (e.g., mouse movements or driving controls)",
+(TOT),Time-on-task,
+(CO2),Capnography,
+(HSOUND),Heart sound,
+(ICG),Impedance cardiogram,
+(PRS),"Pressure (e.g., via piezoelectric sensors)",
+(SMM),Sphygmomanometer (incl. proprietary tech such as Vasotrac),
+(TEMP),"Thermometer (e.g., on finger or arm)",
